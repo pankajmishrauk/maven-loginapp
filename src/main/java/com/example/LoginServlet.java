@@ -15,7 +15,7 @@ public class LoginServlet extends HttpServlet {
         if ("admin".equals(user) && "Admin@1234".equals(pass)) {
             response.getWriter().println("<h2>Login Successful!</h2>");
         } else {
-            response.getWriter().println("<h2>Invalid Credentials</h2>");
+            response.getWriter().println("<h2>Invalid Credentials,Please contact to Administrator</h2>");
         }
     }
 }
