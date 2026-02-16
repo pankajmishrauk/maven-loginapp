@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "manishbadgujar/login-app"
+        IMAGE_NAME = "pankajmishrauk/login-app"
         CONTAINER_NAME = "login-app-container"
     }
 
